@@ -13,7 +13,7 @@
         <!-- Taking care to have all spring dependencies right. -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.2</version>
+        <version>3.2.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -49,11 +49,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>21</java.version>
         <log4j2.version>2.20.0</log4j2.version>
-        <lombok.version>1.18.30</lombok.version>
-        <owasp.plugin.version>9.0.9</owasp.plugin.version>
+        <lombok.version>1.18.32</lombok.version>
+        <owasp.plugin.version>9.1.0</owasp.plugin.version>
         <maven.versions.plugin.version>2.16.2</maven.versions.plugin.version>
         <classmate.version>1.7.0</classmate.version>
-        <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
     </properties>
 
     <dependencyManagement>
